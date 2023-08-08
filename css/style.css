@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../Imagenes/Aleta\ de\ tiburon.jpg);
+    background-size:cover;
+    background-position: center center;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+
+h1 { 
+    background-size:cover;
+    background-position: center;
+    padding: 50px;
+    font-family: 'Holtwood One SC', serif;
+    display: inline;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    font-family: 'Agdasima', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu nav ul li :hover {
+    background-color: #2457a3;
+    color: white;
+    border-radius: 20%;
+    padding: 4px;
+}
+
+main {
+    font-family: 'Agdasima', sans-serif;
+    margin-top: 210px;
+    
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.tabla  {
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+th {
+    border-collapse: collapse;
+    padding: 8px;
+    border: 2px solid #000 ;
+}
+
+td{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.subtitulo {
+    margin: 10px;
+    background-color: #5293dd;
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+    font-size: large;
+
+}
+
+.videotiburon {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.caracteristicas {
+    text-align: center;
+}
+
+.listaespecie{
+    text-align: center;
+}
+
+
+section {
+    margin: 10px;
+}
+
+.solicitud {
+    margin: 10px;
+    text-align: center;
+    background-color: #f07e13;
+}
+
+footer {
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Agdasima', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.foot1 {
+    display: inline;
+}
+
+.botonarriba {
+    text-decoration: none;
+}
+
+.foot2 {
+    display: inline;
+}
